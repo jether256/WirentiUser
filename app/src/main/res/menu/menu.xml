@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:fontFamily="@font/centurygothic"
+
+        android:title="Home"/>
+
+
+    <item
+        android:id="@+id/my_acc"
+
+        android:fontFamily="@font/centurygothic"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title=" Account"/>
+
+    <item
+        android:id="@+id/contact"
+
+        android:fontFamily="@font/centurygothic"
+        android:icon="@drawable/ic_baseline_call_24"
+        android:title="Contact Us"/>
+
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:fontFamily="@font/centurygothic"
+
+        android:title="About Us"/>
+
+    <item
+        android:id="@+id/privacy"
+        android:icon="@drawable/ic_baseline_privacy_tip_24"
+        android:fontFamily="@font/centurygothic"
+
+        android:title="Privacy Policy"/>
+
+
+</menu>

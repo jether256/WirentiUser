@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/white"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/AppBarLayout"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints">
+
+            <com.google.android.material.appbar.CollapsingToolbarLayout
+                android:id="@+id/coll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_scrollFlags="scroll|snap|enterAlwaysCollapsed"
+                android:background="@color/white">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="8dp">
+
+                    <ImageView
+                        android:id="@+id/logo"
+                        android:layout_width="50dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/wirent"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginRight="8dp"/>
+
+
+                    <TextView
+                        android:id="@+id/text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Wirenti Uganda Limited"
+                        android:maxLength="27"
+                        android:layout_toEndOf="@id/logo"
+                        android:fontFamily="@font/gothicbo"
+                        android:textSize="18sp"
+                        android:drawablePadding="8dp"
+                        android:layout_centerVertical="true"
+                        android:textColor="@color/wi"/>
+
+                </RelativeLayout>
+
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+
+            <com.google.android.material.appbar.CollapsingToolbarLayout
+                android:id="@+id/coll2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_scrollFlags="scroll|snap|enterAlwaysCollapsed"
+                android:background="@color/white">
+
+                <androidx.appcompat.widget.Toolbar
+                    android:layout_width="match_parent"
+                    android:layout_height="?actionBarSize"
+                    android:background="@color/wi"
+                    app:layout_collapseMode="pin"
+                    app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+                    <androidx.appcompat.widget.SearchView
+                        android:id="@+id/search"
+                        android:layout_width="match_parent"
+                        android:layout_margin="10dp"
+                        android:layout_height="40dp"
+                        android:text="Wirenti"
+                        app:queryBackground="@color/wi"
+                        android:focusable="false"
+                        android:background="@drawable/round2"
+                        android:textColor="@color/wi"
+                        android:textSize="20sp"
+                        android:fontFamily="@font/gothicbo"/>
+                </androidx.appcompat.widget.Toolbar>
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/toolbar3">
+
+                    <com.smarteist.autoimageslider.SliderView
+                        android:id="@+id/imageSlider"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        app:sliderAnimationDuration="600"
+                        app:sliderAutoCycleDirection="back_and_forth"
+                        app:sliderAutoCycleEnabled="true"
+                        app:sliderIndicatorAnimationDuration="600"
+                        app:sliderIndicatorGravity="center_horizontal|bottom"
+                        app:sliderIndicatorMargin="15dp"
+                        app:sliderIndicatorOrientation="horizontal"
+                        app:sliderIndicatorPadding="3dp"
+                        app:sliderIndicatorRadius="2dp"
+                        app:sliderIndicatorSelectedColor="#5A5A5A"
+                        app:sliderIndicatorUnselectedColor="#FFF"
+                        app:sliderScrollTimeInSec="1"
+                        app:sliderStartAutoCycle="true">
+
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+
+
+                            <TextView
+                                android:id="@+id/textView16"
+                                android:layout_width="70dp"
+                                android:layout_height="20dp"
+                                android:layout_marginTop="12dp"
+                                android:layout_marginEnd="48dp"
+                                android:background="@drawable/round"
+
+                                android:text="REGISTER"
+                                android:textColor="@color/white"
+                                app:layout_constraintEnd_toStartOf="@+id/textView17"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:id="@+id/textView17"
+                                android:layout_width="wrap_content"
+                                android:layout_height="20dp"
+                                android:layout_marginEnd="16dp"
+                                android:background="@drawable/round"
+                                android:text="LOGIN"
+
+                                android:textColor="@color/white"
+                                app:layout_constraintBottom_toBottomOf="@+id/textView16"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="1.0" />
+
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+                    </com.smarteist.autoimageslider.SliderView>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/banner"
+                    android:orientation="horizontal"
+                    tools:listitem="@layout/banner_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/pro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:listitem="@layout/dynamic_item"
+                   />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/special"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:listitem="@layout/layout_offers"
+                    />
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/newm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:listitem="@layout/layout_offers"
+                    />
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/damu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:listitem="@layout/dynamic_item"
+                    />
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

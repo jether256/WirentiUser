@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/round2"
+    android:layout_margin="8dp"
+    android:elevation="2dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_b_house_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/apartment"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+
+        android:text="Jether Apartment"
+        android:textColor="@color/black"
+        android:fontFamily="@font/gothicbo"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/image"
+        app:layout_constraintEnd_toEndOf="@id/image"
+        app:layout_constraintStart_toStartOf="@id/image"/>
+
+
+    <TextView
+        android:id="@+id/place"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/gothic"
+        android:text="Kyaliwajala"
+        android:textColor="@color/wi"
+        app:layout_constraintStart_toStartOf="@id/apartment"
+        app:layout_constraintTop_toBottomOf="@id/apartment" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="1000shs"
+        android:textColor="@color/wi"
+        android:fontFamily="@font/gothic"
+        app:layout_constraintTop_toBottomOf="@id/place"
+        app:layout_constraintStart_toStartOf="@id/place"/>
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Rental"
+        android:textColor="@color/wi"
+        android:fontFamily="@font/gothic"
+        app:layout_constraintTop_toBottomOf="@id/price"
+        app:layout_constraintStart_toStartOf="@id/price"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

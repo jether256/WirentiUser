@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PropertyDetailsActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.002" >
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jether Apartments"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:fontFamily="@font/gothicbo"/>
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="65dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar3"
+        app:layout_constraintVertical_bias="0.0">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="3dp"
+            android:background="@color/grey"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:background="@color/card1"
+                    app:cardCornerRadius="3dp"
+                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/status"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/gothicbo"
+                            android:layout_marginBottom="5dp"
+                            android:text="RENTAL"/>
+                        <TableLayout
+                            android:weightSum="1"
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TableRow
+
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+
+
+                                <TextView
+
+                                    android:layout_width="200dp"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/gothicbo"
+
+                                    android:text="Property ID"/>
+
+                                <TextView
+
+                                    android:layout_width="200dp"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/gothicbo"
+                                    android:text="Price"/>
+
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+                                <TextView
+                                    android:id="@+id/propertyid"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textAlignment="textStart"
+                                    android:textColor="@color/wi"
+                                    android:fontFamily="@font/gothic"
+                                    android:text="1237884994995"/>
+                                <TextView
+                                    android:id="@+id/price"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:textColor="@color/wi"
+                                    android:textAlignment="textStart"
+                                    android:fontFamily="@font/gothic"
+                                    android:text="252hs"/>
+                            </TableRow>
+                        </TableLayout>
+                    </LinearLayout>
+
+
+
+
+                </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/toolbar3">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <androidx.cardview.widget.CardView
+                            app:cardCornerRadius="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+
+                            <ImageView
+                                android:id="@+id/gallery1"
+                                android:layout_margin="5dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/ic_baseline_home_24"
+                                android:layout_width="match_parent"
+                                android:layout_height="200dp"/>
+
+                        </androidx.cardview.widget.CardView>
+
+
+
+
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_margin="10dp"
+                    android:background="@color/back"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:id="@+id/lin1"
+                        android:layout_width="wrap_content"
+                        android:weightSum="1"
+                        android:orientation="vertical"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/gothicbo"
+                            android:layout_marginBottom="5dp"
+                            android:text=""/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/gothicbo"
+                            android:text="Beds"/>
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:id="@+id/beds1"
+                                android:fontFamily="@font/gothic"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/wi"
+                                android:text="10"/>
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/gothicbo"
+                            android:text="Floors"/>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:id="@+id/floors1"
+                                android:fontFamily="@font/gothic"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/wi"
+                                android:text="3"/>
+                        </LinearLayout>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/lin2"
+                        android:layout_width="wrap_content"
+                        android:weightSum="1"
+                        android:orientation="vertical"
+                        android:layout_gravity="start"
+                        android:layout_margin="5dp"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/gothicbo"
+                            android:layout_marginBottom="5dp"
+                            android:text="Description"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/gothicbo"
+                            android:text="Area"/>
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:id="@+id/area1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAlignment="center"
+                                android:fontFamily="@font/gothic"
+                                android:textColor="@color/wi"
+                                android:text="123"/>
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/gothicbo"
+                            android:layout_marginTop="5dp"
+                            android:text="Size"/>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:id="@+id/size1"
+                                android:fontFamily="@font/gothic"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/wi"
+                                android:text="120"/>
+                        </LinearLayout>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:weightSum="1"
+                        android:orientation="vertical"
+                        android:layout_gravity="end"
+                        android:layout_margin="5dp"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/gothicbo"
+                            android:layout_marginBottom="5dp"
+                            android:text=""/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="5dp"
+                            android:fontFamily="@font/gothicbo"
+                            android:text="Baths"/>
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:id="@+id/baths1"
+                                android:fontFamily="@font/gothic"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/wi"
+                                android:text="10"/>
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="5dp"
+                            android:fontFamily="@font/gothicbo"
+                            android:text="Garage"/>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:id="@+id/garage1"
+                                android:fontFamily="@font/gothic"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/wi"
+                                android:text="3"/>
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/address4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/wi"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/gothic"
+                    android:layout_marginEnd="5dp"
+                    android:text="This is from Kyaliwajala"/>
+
+                <androidx.cardview.widget.CardView
+                    android:background="@color/back"
+                    app:cardCornerRadius="3dp"
+                    android:elevation="10dp"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="10dp"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_marginStart="5dp"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/gothicbo"
+                            android:text="Location"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/gothicbo"
+                            android:text="Address:"/>
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:id="@+id/address1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textAlignment="center"
+                                android:fontFamily="@font/gothic"
+                                android:textColor="@color/wi"
+                                android:text="Kimanya"/>
+                        </LinearLayout>
+
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:fontFamily="@font/gothicbo"
+                            android:text="City:"/>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:id="@+id/city"
+                                android:textColor="@color/wi"
+                                android:fontFamily="@font/gothic"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Kla"/>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    app:cardCornerRadius="3dp"
+                    android:elevation="10dp"
+                    android:background="@color/back"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/prope"
+                            android:layout_width="match_parent"
+                            android:textColor="@color/white"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/gothicbo"
+                            android:text="id"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/gothicbo"
+                            android:textSize="20sp"
+                            android:text="Request Showing"/>
+
+                        <EditText
+                            android:id="@+id/name22"
+                            android:layout_width="match_parent"
+                            android:background="@drawable/round"
+                            android:hint="Your Name"
+                            android:textColor="@color/white"
+                            android:padding="5dp"
+                            android:layout_margin="5dp"
+                            android:layout_height="50dp"/>
+
+                        <EditText
+                            android:id="@+id/email"
+                            android:layout_width="match_parent"
+                            android:background="@drawable/round"
+                            android:hint="Email Address"
+                            android:textColor="@color/white"
+                            android:padding="5dp"
+                            android:layout_margin="5dp"
+                            android:layout_height="50dp"/>
+                        <EditText
+                            android:id="@+id/phone"
+                            android:layout_width="match_parent"
+                            android:background="@drawable/round"
+                            android:hint="Phone Number"
+                            android:textColor="@color/white"
+                            android:padding="5dp"
+                            android:layout_margin="5dp"
+                            android:layout_height="50dp"/>
+
+                        <EditText
+                            android:id="@+id/message"
+                            android:layout_width="match_parent"
+                            android:background="@drawable/round"
+                            android:hint="Message"
+                            android:textColor="@color/white"
+                            android:padding="5dp"
+                            android:layout_margin="5dp"
+                            android:layout_height="100dp"/>
+
+                        <Button
+                            android:layout_gravity="end"
+                            android:gravity="end"
+                            android:id="@+id/mutale"
+                            android:layout_margin="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Submit"/>
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

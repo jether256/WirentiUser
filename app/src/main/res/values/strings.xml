@@ -1,0 +1,214 @@
+<resources>
+    <string name="app_name">Wirenti Users App</string>
+
+    <string-array name="people">
+        <item>Owner</item>
+        <item>User</item>
+    </string-array>
+
+    <string-array name="pinner_items">
+        <item>Rental</item>
+        <item>Hostel</item>
+        <item>Tousrist BnB</item>
+    </string-array>
+
+    <string-array name="Country">
+        <item>Uganda</item>
+    </string-array>
+
+    <string-array name="type">
+        <item>Apartments</item>
+        <item>Houses</item>
+        <item>Offices</item>
+        <item>Villas</item>
+        <item>Hostels</item>
+    </string-array>
+
+    <string-array name="region">
+        <item>Northern</item>
+        <item>Western</item>
+        <item>Eastern</item>
+        <item>Central</item>
+    </string-array>
+
+    <string-array name="districts">
+        <item>Gulu</item>
+        <item>Arua</item>
+        <item>Abim</item>
+        <item>Adjumani</item>
+        <item>Agago</item>
+        <item>Alebtong</item>
+        <item>amolatar</item>
+        <item>Amudat</item>
+        <item>Amuru</item>
+        <item>Apac</item>
+        <item>Dokolo</item>
+        <item>Kabong</item>
+        <item>Kitgum</item>
+        <item>Koboko</item>
+        <item>Kole</item>
+        <item>Kotido</item>
+        <item>Lamwo</item>
+        <item>Lira</item>
+        <item>Maracha</item>
+        <item>Moroto</item>
+        <item>Moyo</item>
+        <item>Nakapiripirit</item>
+        <item>Napak</item>
+        <item>Nebbi</item>
+        <item>Nwoya</item>
+        <item>Otuke</item>
+        <item>Oyam</item>
+        <item>Pader</item>
+        <item>Yumbe</item>
+        <item>Zombo</item>
+        <item>Buhweju</item>
+        <item>Buliisa</item>
+        <item>Bundibugyo</item>
+        <item>Bushenyi</item>
+        <item>Hoima</item>
+        <item>Ibanda</item>
+        <item>Isingiro</item>
+        <item>Kabale</item>
+        <item>Kabarole</item>
+        <item>Kamwenge</item>
+        <item>Kanungu</item>
+        <item>Kasese</item>
+        <item>Kibaale</item>
+        <item>Kiruhura</item>
+        <item>Kiryandongo</item>
+        <item>Kisoro</item>
+        <item>Kyegwegwa</item>
+        <item>Masindi</item>
+        <item>Mitooma</item>
+        <item>Ntoroko</item>
+        <item>Ntungamo</item>
+        <item>Rubirizi</item>
+        <item>Rukungiri</item>
+        <item>Sheema</item>
+        <item>Mbale</item>
+        <item>Soroti</item>
+        <item>Amuria</item>
+        <item>Budaka</item>
+        <item>Bugiri</item>
+        <item>Bukedea</item>
+        <item>Bukwa</item>
+        <item>Bulamburi</item>
+        <item>Busia</item>
+        <item>Butaleja</item>
+        <item>Buyende</item>
+        <item>Iganga</item>
+        <item>Jinja</item>
+        <item>Kaberamaido</item>
+        <item>Kamuli</item>
+        <item>Kapchorwa</item>
+        <item>Katakwi</item>
+        <item>Kibuku</item>
+        <item>Kumi</item>
+        <item>Kweni</item>
+        <item>Luuka</item>
+        <item>Manafwa</item>
+        <item>Mayuge</item>
+        <item>Mbale</item>
+        <item>Namayingo</item>
+        <item>Namutumba</item>
+        <item>Ngora</item>
+        <item>Pallisa</item>
+        <item>Serere</item>
+        <item>Tororo</item>
+        <item>Kampala</item>
+        <item>Masaka</item>
+        <item>Mukono</item>
+        <item>Rakai</item>
+        <item>Kalangala</item>
+        <item>Buikwe</item>
+        <item>Bukomansimbi</item>
+        <item>Butambala</item>
+        <item>Buvuma</item>
+        <item>Gomba</item>
+        <item>Kalungu</item>
+        <item>Kayungu</item>
+        <item>Kiboga</item>
+        <item>Kyankwanzi</item>
+        <item>Luweero</item>
+        <item>Lwengo</item>
+        <item>Lyantonde</item>
+        <item>Mityana</item>
+        <item>Mpigi</item>
+        <item>Mubende</item>
+        <item>Nakaseke</item>
+        <item>Nakasongola</item>
+        <item>Sembabule</item>
+        <item>Wakiso</item>
+
+
+    </string-array>
+
+
+    <string name="about">
+
+wiRent is a Ugandan-based company which offers a digital plartform for listing Rentals,Hostels and Tourist B and B residential spaces directly by property owners.\n \n
+Our Vision:\n \n
+To become the leading real estate company in Africa providing world Class Real Estate Services\n\n
+
+Our Goal:\n\n
+
+To unite the Real Estate Brokers, and their Associates of The Bahamas for the purpose of exerting effectively a combined positive influence upon matters affecting their profession.
+    </string>
+
+    <string name="policy">
+
+At wirenti.com, accessible from http://wirenti.com/, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by wirenti.com and how we use it.\n
+If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.\n
+This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in wirenti.com. This policy is not applicable to any information collected offline or via channels other than this website. Our Privacy Policy was created with the help of the "https://www.privacypolicyonline.com/privacy-policy-generator/"Free Privacy Policy Generator.\n\n
+
+    </string>
+
+
+    <string name="kwelo">
+Collection of your personal information:\n
+In order to better provide you with products and services.We may collect personal information such as;\n
+
+    First and Last names;\n
+    Email Adresses;\n
+    Telephone numbers\n
+    License plate numbers\n\n
+
+
+Use of your personal Information:\n
+Any of the personal information we collect from you may be used for he following purposes;\n\n
+
+For User Account Registration
+Sharing information with third parties.we may sell,rent or lease information to third partied because of the following reasons.\n\n
+
+Advertising:\n
+We may from time to time contact you on behalf of external business partners about a particular offering that may be of interest to you.in those cases your unique personally identifiable information (email,name,address,telephone number) is transferred to a third party.\n
+
+Security of your personal Information:\n\n
+
+    We secure your personal information from unauthorized access,use or disclosure.We use the following methods for this purpose;\n
+
+    SSL protocol.\n\n
+    When personal information (such as credit card number) is transmitted to the other website,it is protected through the use of encryption such as the secure sockets layer(SSL protocol).\n
+    Cloud front
+    </string>
+
+
+    <string name="centercooling">Center Cooling</string>
+    <string name="balcony">Balcony</string>
+    <string name="pet">Pet Friendly</string>
+    <string name="beb">Barbeque</string>
+    <string name="fire">Fire Alarm</string>
+    <string name="modern">Modern Kitchen</string>
+    <string name="storage">Storage</string>
+    <string name="dryer">Dryer</string>
+    <string name="heating">Heating</string>
+    <string name="pool">Pool</string>
+    <string name="laundry">Laundry</string>
+    <string name="sauna">Sauna</string>
+    <string name="ele">Elevator</string>
+    <string name="dish">Dish Washer</string>
+    <string name="exit">Emergency Exit</string>
+
+
+</resources>
